@@ -17,7 +17,7 @@ spec:
   # Destination cluster and namespace to deploy the application
   destination:
     name: in-cluster
-    namespace: kcl-valentin.gilles-wk
+    namespace: kcl-valentin-gilles-wk
 
   # Sync policy
   syncPolicy:
