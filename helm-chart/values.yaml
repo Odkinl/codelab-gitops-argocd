@@ -6,3 +6,10 @@ backend:
   host: valentin-gilles-backend.codelab.cloud-sp.eu # TODO - Précisez l'hôte d'exposition du backend
   service:
     port: 443 # TODO - Précisez le port d'exposition du service de votre pod
+frontend:
+  name: pophin-front # TODO - Nommer votre application backend
+  image: docker.io/rkaeffer/codelab-gitops-frontend:1.0.0 # TODO - Mettre l'image à déployer
+  containerPort: 4200 # TODO - Précisez le port d'écoute du conteneur
+  host: valentin-gilles-frontend.codelab.cloud-sp.eu # TODO - Précisez l'hôte d'exposition du backend
+  service:
+    port: 443 # TODO - Précisez le port d'exposition du service de votre pod
